@@ -15,11 +15,11 @@ const Contact = () => {
             </div>
             <div className="mb-2">
               <h4 className="text-lg font-semibold">GitHub:</h4>
-              <a target="_blank" href="https://github.com/thanosan23">Take me there</a>
+              <a rel="noreferrer" target="_blank" href="https://github.com/thanosan23">Take me there</a>
             </div>
             <div className="mb-2">
               <h4 className="text-lg font-semibold">Devpost:</h4>
-              <a target="_blank" href="https://devpost.com/thanosan23">Take me there</a>
+              <a rel="noreferrer" target="_blank" href="https://devpost.com/thanosan23">Take me there</a>
             </div>
             <div className="mb-2">
               <h4 className="text-lg font-semibold">Located:</h4>

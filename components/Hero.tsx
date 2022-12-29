@@ -12,7 +12,7 @@ const Hero = () => {
         <p className="text-md py-5 leading-8 text-gray-800">Read more about me below!</p>
       </div>
       <div className="text-5xl flex justify-center gap-16">
-        <a className="hover:cursor-pointer hover:text-gray-800" target="_blank" href="https://github.com/thanosan23">
+        <a className="hover:cursor-pointer hover:text-gray-800" rel="noreferrer" target="_blank" href="https://github.com/thanosan23">
           <AiFillGithub />
         </a>
         <a className="hover:cursor-pointer hover:text-gray-800" href="mailto:p.thanosan23@gmail.com">
