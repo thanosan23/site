@@ -8,7 +8,7 @@ const Contact = () => {
         <h6 className="text-lg font-semibold">Get In Touch</h6>
         <h3 className="font-bold text-4xl">Contact Me</h3>
         <div className="flex flex-col justify-center items-center p-20">
-          <div className="p-5 flex flex-col text-left bg-white w-1/3 rounded shadow-lg text-black">
+          <div className="p-5 flex flex-col text-left bg-white rounded shadow-lg text-black">
             <div className="mb-2">
               <h4 className="text-lg font-semibold">Email:</h4>
               <a href="mailto:p.thanosan23@gmail.com">p.thanosan23@gmail.com</a>

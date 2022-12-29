@@ -3,7 +3,7 @@ import React from 'react';
 const SkillBox = ({ icon, title, children }) => {
   return (
     <>
-      <div className="text-center text-white shadow-lg py-10 px-5 rounded-xl w-1/3 bg-teal-700">
+      <div className="text-center text-white shadow-lg py-10 px-5 rounded-xl w-1/2 bg-teal-700">
         <div className="flex items-center justify-center text-5xl">
           { icon }
         </div>
