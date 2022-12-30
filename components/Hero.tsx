@@ -22,10 +22,10 @@ const Hero = () => {
         <p className="text-md py-5 leading-8 text-gray-800">Read more about me below!</p>
       </div>
       <div className="text-5xl flex justify-center gap-16 pb-20">
-        <a className="hover:cursor-pointer hover:text-gray-800" rel="noreferrer" target="_blank" href="https://github.com/thanosan23">
+        <a className="hover:cursor-pointer hover:text-gray-800 hover:scale-110 hover:translate-y-1 duration-300 delay-50" rel="noreferrer" target="_blank" href="https://github.com/thanosan23">
           <AiFillGithub />
         </a>
-        <a className="hover:cursor-pointer hover:text-gray-800" href="mailto:p.thanosan23@gmail.com">
+        <a className="hover:cursor-pointer hover:text-gray-800 hover:scale-110 hover:translate-y-1 duration-300 delay-50" href="mailto:p.thanosan23@gmail.com">
           <AiOutlineMail />
         </a>
       </div>

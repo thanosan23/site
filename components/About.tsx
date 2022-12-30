@@ -7,7 +7,7 @@ import programming_image from "../public/programming.svg"
 const About = () => {
   return (
     <>
-      <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} className="flex flex-col gap-20 items-center justify-center text-center mb-20 text-white">
+      <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} className="flex flex-col gap-20 items-center justify-center text-center mb-20 mt-10 text-white">
         <div className="flex flex-col text-center justify-center items-center">
           <h4 className="font-semibold py-2 text-2xl">Welcome to my website</h4>
           <h3 className="text-5xl font-bold pb-10 text-center">My name is Thanosan.</h3>
@@ -19,7 +19,7 @@ const About = () => {
         <div>
           <a href="#Contact">
             <ButtonUnstyled className="bg-white text-teal-900 rounded px-5 py-2 font-semibold hover:translate-y-1 hover:scale-110 hover:opacity-80 delay-50 duration-300">
-              Contact
+              Contact Me
             </ButtonUnstyled>
           </a>
         </div>

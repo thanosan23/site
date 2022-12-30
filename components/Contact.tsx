@@ -6,7 +6,7 @@ import contact_image from '../public/contact.svg'
 const Contact = () => {
   return (
     <>
-      <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} className="text-center text-white">
+      <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} className="text-center text-white mt-10">
         <h6 className="text-lg font-semibold pt-7">Get In Touch</h6>
         <h3 className="font-bold text-4xl">Contact Me</h3>
         <div className="flex flex-wrap justify-center gap-20 items-center p-20">
