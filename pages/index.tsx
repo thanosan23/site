@@ -17,8 +17,8 @@ export default function Home() {
       </Head>
       <main className="bg-white dark:bg-gray-900">
         <div>
-          <nav className="py-5 px-10 mb-12 flex justify-between bg-white sticky top-0 z-10">
-            <h1 className="lg:text-xl sm:text-sm md:text-sm"><span className="text-teal-700 font-semibold">Thanosan</span> P</h1>
+          <nav className="py-5 px-5 sm:px-10 mb-12 flex justify-between items-center bg-white sticky top-0 z-10">
+            <h1 className="text text-xs sm:text-lg"><span className="text-teal-700 font-semibold">Thanosan</span>P</h1>
             <ul className="flex items-center">
               <li><a className="px-2" href="#">Home</a></li>
               <li><a className="px-2" href="#About">About</a></li>
@@ -26,7 +26,6 @@ export default function Home() {
               <li><a className="px-2" href="#Contact">Contact</a></li>
             </ul>
           </nav>
-
         <section className="min-h-screen px-10">
         <Hero />
         </section>

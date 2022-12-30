@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { ButtonUnstyled } from '@mui/base';
 import Image from "next/image";
 import programming_image from "../public/programming.svg"
 
@@ -14,6 +15,13 @@ const About = () => {
         </div>
         <div>
           <Image src={programming_image} width={250} height={250} alt="programming"/>
+        </div>
+        <div>
+          <a href="#Contact">
+            <ButtonUnstyled className="bg-white text-teal-900 rounded px-5 py-2 font-semibold hover:translate-y-1 hover:scale-110 hover:opacity-80 delay-50 duration-300">
+              Contact
+            </ButtonUnstyled>
+          </a>
         </div>
       </motion.div>
     </>
