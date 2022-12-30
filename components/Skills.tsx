@@ -8,8 +8,8 @@ import { BiServer } from 'react-icons/bi';
 const Skills = () => {
   return (
     <>
-      <motion.h3 initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} className="text-center text-4xl font-bold mb-5">Skills</motion.h3>
-      <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} className="flex py-5 flex-wrap gap-5 items-center justify-center">
+      <motion.h3 initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} className="text-center text-4xl font-bold mb-5 pt-5">Skills</motion.h3>
+      <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} className="flex py-5 flex-wrap gap-3 items-center justify-center">
         <SkillBox icon={<FaPython/>} title="Python">
           I have used Python libraries to create websites and to create machine learning models.
         </SkillBox>
