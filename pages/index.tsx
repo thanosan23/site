@@ -24,12 +24,12 @@ export default function Home() {
             <a href="#">
               <h1 className="text text-xs sm:text-lg"><span className="text-teal-700 font-semibold">Thanosan</span>P</h1>
             </a>
-            <ul className="flex items-center">
-              <li className="px-2"><a className="hover-line" href="#">Home</a></li>
-              <li className="px-2"><a className="hover-line" href="#About">About</a></li>
-              <li className="px-2"><a className="hover-line" href="#Skills">Skills</a></li>
-              <li className="px-2"><a className="hover-line" href="#Projects">Projects</a></li>
-              <li className="px-2"><a className="hover-line" href="#Contact">Contact</a></li>
+            <ul className="flex items-center text-sm sm:text-base">
+              <li className="px-1 sm:px-2"><a className="hover-line" href="#">Home</a></li>
+              <li className="px-1 sm:px-2"><a className="hover-line" href="#About">About</a></li>
+              <li className="px-1 sm:px-2"><a className="hover-line" href="#Skills">Skills</a></li>
+              <li className="px-1 sm:px-2"><a className="hover-line" href="#Projects">Projects</a></li>
+              <li className="px-1 sm:px-2"><a className="hover-line" href="#Contact">Contact</a></li>
             </ul>
           </nav>
           <section className="min-h-screen px-10">
