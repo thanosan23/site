@@ -13,15 +13,15 @@ const Contact = () => {
           <div className="p-5 flex flex-col text-left bg-white rounded shadow-lg text-black">
             <div className="mb-2">
               <h4 className="text-lg font-semibold">Email:</h4>
-              <a href="mailto:p.thanosan23@gmail.com">p.thanosan23@gmail.com</a>
+              <a className="hover:opacity-80" href="mailto:p.thanosan23@gmail.com">p.thanosan23@gmail.com</a>
             </div>
             <div className="mb-2">
               <h4 className="text-lg font-semibold">GitHub:</h4>
-              <a rel="noreferrer" target="_blank" href="https://github.com/thanosan23">Take me there</a>
+              <a className="hover:opacity-80" rel="noreferrer" target="_blank" href="https://github.com/thanosan23">Take me there</a>
             </div>
             <div className="mb-2">
               <h4 className="text-lg font-semibold">Devpost:</h4>
-              <a rel="noreferrer" target="_blank" href="https://devpost.com/thanosan23">Take me there</a>
+              <a className="hover:opacity-80" rel="noreferrer" target="_blank" href="https://devpost.com/thanosan23">Take me there</a>
             </div>
             <div className="mb-2">
               <h4 className="text-lg font-semibold">Located:</h4>
