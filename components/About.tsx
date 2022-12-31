@@ -17,7 +17,9 @@ const About = () => {
           <Image src={programming_image} width={250} height={250} alt="programming"/>
         </div>
         <div>
-          <a href="#Contact">
+          <a onClick={() => {
+              document.getElementById('Contact')?.scrollIntoView({ block: 'start', behavior: 'smooth' })
+            }}>
             <ButtonUnstyled className="bg-white text-teal-900 rounded px-5 py-2 font-semibold hover:translate-y-1 hover:scale-110 hover:opacity-80 delay-50 duration-300">
               Contact Me
             </ButtonUnstyled>

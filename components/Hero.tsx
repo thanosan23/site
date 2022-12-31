@@ -29,8 +29,10 @@ const Hero = () => {
           <AiOutlineMail />
         </a>
       </div>
-      <div className="flex justify-center item-center">
-        <a href="#About">
+      <div className="flex justify-center item-center mb-12">
+        <a onClick={() => {
+            document.getElementById('About')?.scrollIntoView({ block: 'start', behavior: 'smooth' })
+          }}>
           <ButtonUnstyled className="bg-teal-800  text-white rounded px-5 py-2 font-semibold hover:bg-teal-700 hover:scale-110 hover:translate-y-1 delay-50 duration-300">
             About Me
           </ButtonUnstyled>

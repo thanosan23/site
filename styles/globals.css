@@ -8,6 +8,14 @@
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
 .hover-line {
   position: relative;
 }

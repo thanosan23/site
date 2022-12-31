@@ -8,6 +8,8 @@ import Projects from '../components/Projects'
 
 import { ButtonUnstyled } from '@mui/base'
 
+const nav_list = ['Home', 'About', 'Skills', 'Projects', 'Contact'];
+
 export default function Home() {
 
   return (
@@ -21,18 +23,26 @@ export default function Home() {
       <main className="bg-white dark:bg-gray-900">
         <div>
           <nav className="py-5 px-5 sm:px-10 mb-12 flex justify-between items-center bg-white sticky top-0 z-10">
-            <a href="#">
-              <h1 className="text text-xs sm:text-lg"><span className="text-teal-700 font-semibold">Thanosan</span>P</h1>
+            <a onClick={() => {
+                document.getElementById('Home')?.scrollIntoView({ block: 'start', behavior: 'smooth' })
+              }}>
+              <h1 className="text text-xs sm:text-lg hover:opacity-80 hover:scale-105 duration-300 delay-50"><span className="text-teal-700 font-semibold">Thanosan</span>P</h1>
             </a>
             <ul className="flex items-center text-sm sm:text-base">
-              <li className="px-1 sm:px-2"><a className="hover-line" href="#">Home</a></li>
-              <li className="px-1 sm:px-2"><a className="hover-line" href="#About">About</a></li>
-              <li className="px-1 sm:px-2"><a className="hover-line" href="#Skills">Skills</a></li>
-              <li className="px-1 sm:px-2"><a className="hover-line" href="#Projects">Projects</a></li>
-              <li className="px-1 sm:px-2"><a className="hover-line" href="#Contact">Contact</a></li>
+              {
+                nav_list.map((element : string) => (
+                  <li key={element} className="px-1.5 sm:px-2">
+                    <a className="hover-line" onClick={() => {
+                      document.getElementById(element)?.scrollIntoView({ block: 'start', behavior: 'smooth' })
+                    }}>
+                      {element}
+                    </a>
+                  </li>
+                ))
+              }
             </ul>
           </nav>
-          <section className="min-h-screen px-10">
+          <section id="Home" className="min-h-screen px-10">
             <Hero />
           </section>
           <section id="About" className="min-h-screen bg-teal-700 py-10 flex flex-col items-center justify-center">
@@ -46,8 +56,10 @@ export default function Home() {
           </section>
           <section className="bg-white">
             <div className="flex flex-col item-center text-center justify-center my-12">
-              <h3 className="text-3xl text-teal-700 font-semibold my-9">Want to get in touch?</h3>
-              <a href="#Contact">
+              <h3 className="text-3xl text-teal-700 font-semibold mb-9">Want to get in touch?</h3>
+              <a onClick={() => {
+                  document.getElementById('Contact')?.scrollIntoView({ block: 'start', behavior: 'smooth' })
+                }}>
                 <ButtonUnstyled className="bg-teal-800 text-white hover:opacity-80 rounded px-5 py-2 hover:scale-110 hover:translate-y-1 duration-300 delay-50">
                   Contact Me
                 </ButtonUnstyled>
