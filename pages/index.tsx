@@ -18,7 +18,7 @@ export default function Home() {
         <title>Thanosan Prathifkumar</title>
         <meta name="description" content="Thanosan Prathifkumar Portfolio" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/logo.png" />
       </Head>
       <main className="bg-white dark:bg-gray-900">
         <div>
@@ -70,6 +70,13 @@ export default function Home() {
             <Contact />
           </section>
         </div>
+        <footer className="bg-white">
+          <div className="flex flex-col text-center justify-center py-10">
+          <h1 className="text text-2xl mb-2"><span className="text-teal-700 font-semibold">Thanosan</span>P</h1>
+          <p className="text-sm sm:text-base">© 2023 Thanosan Prathifkumar. All Rights Reserved.</p>
+          <a href="https://github.com/thanosan23/portfolio" className="mt-2 text-teal-700 underline">Source Code</a>
+          </div>
+        </footer>
       </main>
     </>
   );
