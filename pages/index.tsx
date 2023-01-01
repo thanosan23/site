@@ -42,7 +42,7 @@ export default function Home() {
               }
             </ul>
           </nav>
-          <section id="Home" className="min-h-screen px-10">
+          <section id="Home" className="mt-12 py-12 min-h-screen px-10">
             <Hero />
           </section>
           <section id="About" className="min-h-screen bg-teal-700 py-10 flex flex-col items-center justify-center">
