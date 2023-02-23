@@ -12,6 +12,11 @@ const projectList = [
     link: "https://github.com/thanosan23/WriteItDown",
     description: "Created a simple note-taking application using Next.js, Tailwind CSS, Framer Motion, NextAuth and Prisma."
   },
+  {
+    name: "Research Buddy",
+    link: "https://github.com/thanosan23/ResearchBuddy",
+    description: "Created a chrome extension that uses machine learning to help students research more effectively"
+  },
 ];
 
 const Projects = () => {
