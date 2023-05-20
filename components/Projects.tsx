@@ -17,6 +17,11 @@ const projectList = [
     link: "https://github.com/thanosan23/ResearchBuddy",
     description: "Created a chrome extension that uses machine learning to help students research more effectively"
   },
+  {
+    name: "Tutorial Tube",
+    link: "https://github.com/thanosan23/TutorialTube",
+    description: "Created a video search engine using state of the art machine learning models and algorithms"
+  },
 ];
 
 const Projects = () => {
