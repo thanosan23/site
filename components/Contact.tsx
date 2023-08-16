@@ -27,6 +27,9 @@ const Contact = () => {
               <h4 className="text-lg font-semibold">Located:</h4>
               <p>Ontario, Canada</p>
             </div>
+            <div className="mb-2 mt-8 text-sm">
+                <p>Want to chat? Click <a className='underline' href="https://cal.com/thanosan/chat" rel="noreferrer" target="_blank">here</a>!</p>
+            </div>
           </div>
           <div className="p-5">
             <Image src={contact_image} width={300} height={300} alt="Contact"/>
