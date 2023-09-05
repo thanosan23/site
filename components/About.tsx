@@ -12,6 +12,8 @@ const About = () => {
           <h4 className="font-semibold py-2 text-2xl">Welcome to my website</h4>
           <h3 className="text-5xl font-bold pb-10 text-center">My name is Thanosan.</h3>
           <p className="w-2/3">I am a high school student in Canada. I try to bring my unique solutions to fruition through application development, machine learning, and frontend/backend web development.</p>
+            <br></br>
+            <p>You can check out my TKS life profile <a target="_blank" className="underline" href="https://tks.life/profile/thanosan.prathifkumar#about">here</a>.</p>
         </div>
         <div>
           <Image src={programming_image} width={250} height={250} alt="programming"/>
